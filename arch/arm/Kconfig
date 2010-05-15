@@ -218,6 +218,7 @@ config MACH_APPLE_IPHONE
 	select FB_APPLE_IPHONE
 	select HAVE_CLK
 	select GENERIC_GPIO
+    select I2C
         select S3C_DEV_USB_HSOTG
 	help
 	  Apple's iPhone!
